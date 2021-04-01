@@ -1,0 +1,816 @@
+/* -----core.customizer.css----- */
+.to_demo_wrap .to_demo_pin {
+	left: 6px;
+	right: auto;
+}
+
+.to_demo_columns2 {
+	margin-left: 3%;
+	margin-right: auto;
+}
+
+.to_demo_columns3 {
+	margin-left: 3%;
+	margin-right: auto;
+}
+
+.organics_options.to_demo_fixed > .organics_options_field_info {
+	left: 0;
+	right: auto;
+}
+
+.to_demo_fixed .to_demo_columns2, .to_demo_fixed .to_demo_columns3 {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* -----front.customizer.css----- */
+/* Theme Customizer */
+/* Shadow and loading */
+.custom_options_shadow {
+	right: 0;
+	left: auto;
+}
+
+.custom_options_shadow:before {
+	right: 50%;
+	left: auto;
+	margin: -1.5em -1.5em 0 0;
+}
+
+/* Custom options */
+body.custom_options_opened .custom_options {
+	right: 0;
+	left: auto;
+}
+
+.custom_options {
+	right: -260px;
+	left: auto;
+}
+
+.custom_options #co_toggle {
+	left: -2.8125em;
+	right: auto;
+}
+
+.custom_options .co_header .co_reset {
+	margin-right: 1em;
+	margin-left: auto;
+}
+
+.custom_options .co_header .co_reset:before {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+.custom_options .co_image_check a:after {
+	margin: -3px -3px 0 0;
+}
+
+/* switch */
+.custom_options .co_switch_box .switcher {
+	right: 0;
+	left: auto;
+}
+
+/* horizontal */
+.custom_options .co_switch_box.co_switch_horizontal a {
+	float: right;
+}
+
+/* vertical */
+.custom_options .co_switch_box.co_switch_vertical a {
+	text-align: right;
+	padding: 0 30px 0 10px;
+}
+
+/* color pic */
+.custom_options .co_scheme_wrapper span,
+.custom_options .iColorPicker span {
+	right: 50%;
+	left: auto;
+}
+
+.custom_options .co_scheme_wrapper:hover span,
+.custom_options .iColorPicker.current span {
+	margin: 0 -50px 0 0;
+}
+
+.custom_options .co_scheme_wrapper span:before,
+.custom_options .iColorPicker.current:before {
+	right: 50%;
+	left: auto;
+	margin: 0 -3px 0 0;
+}
+
+.iColorPickerTable .iColorPicker_moreColors {
+	margin-right: 0.5em;
+	margin-left: auto;
+}
+
+/* -----core.options.css----- */
+.organics_options {
+	margin-right: 0px;
+	margin-left: auto;
+}
+
+/* Theme options header */
+.organics_options_logo {
+	float: right;
+	margin-left: 12px;
+	margin-right: auto;
+}
+
+#organics_options_logo.organics_options_logo h2 {
+	float: right;
+}
+
+.organics_options_logo span {
+	float: right;
+}
+
+.organics_options_button_export,
+.organics_options_button_import,
+.organics_options_button_save,
+.organics_options_button_reset {
+	float: left;
+}
+
+.organics_options_button_save {
+	margin-right: 12px;
+	margin-left: auto;
+}
+
+/* Theme options header fixed */
+.folded .organics_options_header.organics_options_header_fixed {
+	margin: 0 56px 0 0;
+}
+
+.organics_options_header.organics_options_header_fixed {
+	right: 0;
+	margin: 0 180px 0 0;
+}
+
+.organics_options_header.organics_options_header_fixed .organics_options_button_import span,
+.organics_options_header.organics_options_header_fixed .organics_options_button_export span,
+.organics_options_header.organics_options_header_fixed .organics_options_button_reset span,
+.organics_options_header.organics_options_header_fixed .organics_options_button_save span {
+	float: right;
+}
+
+/* Partitions */
+.organics_options_body .organics_options_partition > ul.ui-tabs-nav {
+	float: right;
+}
+
+.organics_options_body .organics_options_partition > ul.ui-tabs-nav > li > a {
+	padding-right: 12px;
+	padding-left: auto;
+}
+
+.organics_options_body .organics_options_partition > ul.ui-tabs-nav > li > a > span {
+	margin-left: 12px;
+	margin-right: -4px;
+	border-left: 1px solid #16181c;
+	text-align: right;
+}
+
+form#addtag .organics_options_body .organics_options_partition > ul.ui-tabs-nav > li {
+	float: right;
+	margin-left: 1px;
+	margin-right: auto;
+}
+
+form#addtag .organics_options_body .organics_options_partition > ul.ui-tabs-nav > li > a {
+	padding-left: 6px;
+	padding-right: auto;
+}
+
+/* Tabs */
+.organics_options_body .organics_options_tab > ul.ui-tabs-nav > li {
+	float: right;
+}
+
+.organics_options_body .organics_options_tab > ul.ui-tabs-nav > li > a > span {
+	margin: 0 0 0 4px;
+	text-align: right;
+}
+
+/* Accordion & toggle */
+.organics_options_body .organics_options_toggle .organics_options_toggle_header .organics_options_toggle_header_icon,
+.organics_options_body .organics_options_accordion .organics_options_accordion_header .organics_options_accordion_header_icon {
+	margin: 0 0 0 4px;
+	text-align: right;
+}
+
+.organics_options_body .organics_options_toggle .organics_options_toggle_header .organics_options_toggle_header_marker,
+.organics_options_body .organics_options_accordion .organics_options_accordion_header .organics_options_accordion_header_marker {
+	left: 12px;
+	right: auto;
+}
+
+/* Group (fieldset) */
+.organics_options_body .organics_options_group legend {
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_group legend span[class*="iconadmin-"] {
+	margin: 0 0 0 2px;
+}
+
+/* Standard fields */
+.organics_options_body .organics_options_field > label {
+	float: right;
+	margin-left: 30px;
+	margin-right: auto;
+	text-align: right;
+}
+
+.organics_options_body .organics_options_field .organics_options_desc {
+	margin-right: 226px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_columns .organics_options_desc {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_cloneable_item {
+	padding-right: 40px;
+	padding-left: auto;
+}
+
+.organics_options_body .organics_options_clone_button_del {
+	right: 0;
+	left: auto;
+}
+
+/* type="info" */
+.organics_options .organics_options_field_info label {
+	text-align: right;
+}
+
+.organics_options .organics_options_field_info .organics_options_desc {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/* Combined fields */
+.organics_options_body .organics_options_field_content .organics_options_arrows,
+.organics_options_body .organics_options_field_content .organics_options_field_after,
+.organics_options_body .organics_options_field_content .organics_options_field_before {
+	right: 1px;
+	left: auto;
+	border-radius: 6px 6px 0 0;
+}
+
+.organics_options_body .organics_options_field_content .organics_options_arrows,
+.organics_options_body .organics_options_field_content .organics_options_field_after {
+	right: auto;
+	left: 1px;
+	border-left: none;
+	border-right: 1px solid #d0d0d0;
+	border-radius: 0 0 3px 3px;
+}
+
+.organics_options_body .organics_options_field_content .organics_options_arrows span {
+	right: 0;
+	left: auto;
+}
+
+.organics_options_body .organics_options_field_content.organics_options_button_after input {
+	padding-left: 104px !important;
+	padding-right: auto !important;
+}
+
+.organics_options_body .organics_options_field_content .organics_options_input_spinner,
+.organics_options_body .organics_options_field_content.organics_options_button_after_small input {
+	padding-left: 34px !important;
+	padding-right: auto !important;
+}
+
+.organics_options_body .organics_options_field_content.organics_options_button_before input {
+	padding-right: 104px !important;
+	padding-left: auto !important;
+}
+
+.organics_options_body .organics_options_field_content.organics_options_button_before_small input {
+	padding-right: 34px !important;
+	padding-left: auto !important;
+}
+
+/* type="tags" */
+.organics_options_body .organics_options_field_tags .organics_options_field_content span {
+	padding-right: 10px;
+	padding-left: 20px;
+	margin: 0 0 3px 3px;
+}
+
+.organics_options_body .organics_options_field_tags .organics_options_field_content span:before {
+	left: 0;
+	right: auto;
+}
+
+/* type="checkbox" & type="radio" */
+.organics_options_body .organics_options_field_radio .organics_options_field_content label,
+.organics_options_body .organics_options_field_checkbox .organics_options_field_content label {
+	text-align: right;
+}
+
+.organics_options_body .organics_options_field_radio .organics_options_field_content label {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.organics_options_body .organics_options_field_radio .organics_options_field_content .organics_options_input_radio_image,
+.organics_options_body .organics_options_field_checkbox .organics_options_field_content .organics_options_input_checkbox_image {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+.organics_options_body .organics_options_field_radio .organics_options_field_content label span:before,
+.organics_options_body .organics_options_field_checkbox .organics_options_field_content label span:before {
+	margin: 0 1px 0 0;
+}
+
+/* type="switch" */
+.organics_options_body .organics_options_field_switch .organics_options_switch.organics_options_state_off .organics_options_switch_inner {
+	margin-right: -33px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_field_switch.organics_options_size_medium .organics_options_switch.organics_options_state_off .organics_options_switch_inner {
+	margin-right: -63px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_field_switch.organics_options_size_big .organics_options_switch.organics_options_state_off .organics_options_switch_inner {
+	margin-right: -93px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_field_switch .organics_options_switch_inner:before {
+	right: 50%;
+	left: auto;
+	margin-right: -8px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_field_switch .organics_options_switch_inner span {
+	padding: 3px 3px 3px 14px;
+}
+
+.organics_options_body .organics_options_field_switch .organics_options_switch_inner span.organics_options_switch_val2 {
+	padding: 3px 14px 3px 3px;
+}
+
+/* type="button" */
+.organics_options_body .organics_options_input_button:before {
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+/* type="checklist" */
+.organics_options_body .organics_options_field_checklist .organics_options_listitem + .organics_options_listitem {
+	border-right-width: 0;
+}
+
+.organics_options_body .organics_options_field_checklist.organics_options_vertical .organics_options_listitem {
+	text-align: right;
+}
+
+.organics_options_body .organics_options_field_checklist.organics_options_vertical .organics_options_listitem + .organics_options_listitem {
+	border-right-width: 1px;
+}
+
+/* type="range" */
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_scale {
+	right: 21px;
+	left: 24px;
+}
+
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_scale_filled {
+	right: 0;
+	left: auto;
+}
+
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_min {
+	right: 20px;
+	left: auto;
+	text-align: right;
+}
+
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_max {
+	left: 20px;
+	right: auto;
+	text-align: left;
+}
+
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_slider {
+	right: 0;
+	left: auto;
+}
+
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_slider_value:after,
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_slider_value:before {
+	right: 50%;
+	left: auto;
+}
+
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_slider_value:after {
+	margin-right: -5px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_field_range .organics_options_input_range .organics_options_range_slider_value:before {
+	margin-right: -6px;
+	margin-left: auto;
+}
+
+/* type="select|list" */
+.organics_options_body .organics_options_field_select .organics_options_input_menu .organics_options_menuitem {
+	text-align: right;
+}
+
+/* type="images" */
+.organics_options_body .organics_options_field_images .organics_options_caption_image:before {
+	right: 50%;
+	left: auto;
+	margin-right: -6px;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_field_images .organics_options_menuitem {
+	margin: 0 0 1px 1px;
+}
+
+/* size=small */
+.organics_options_body .organics_options_field_images.organics_options_size_small .organics_options_caption_image span {
+	margin: 6px 6px 6px 12px;
+}
+
+.organics_options_body .organics_options_field_images.organics_options_size_small .organics_options_caption_image:before {
+	text-align: left;
+	left: 3px;
+	right: auto;
+}
+
+/* size=medium */
+.organics_options_body .organics_options_field_images.organics_options_size_medium .organics_options_caption_image span {
+	margin: 8px 8px 8px 16px;
+}
+
+.organics_options_body .organics_options_field_images.organics_options_size_medium .organics_options_caption_image:before {
+	text-align: left;
+	left: 2px;
+	right: auto;
+}
+
+/* size=large */
+.organics_options_body .organics_options_field_images.organics_options_size_large .organics_options_caption_image span {
+	margin: 10px 10px 10px 18px;
+}
+
+.organics_options_body .organics_options_field_images.organics_options_size_large .organics_options_caption_image:before {
+	text-align: left;
+	left: 3px;
+	right: auto;
+}
+
+/* type="icons" */
+.organics_options_body .organics_options_field_icons .organics_options_caption_icon:before {
+	text-align: left;
+	left: 2px;
+	right: auto;
+}
+
+.organics_options_body .organics_options_field_icons .organics_options_caption_icon span {
+	margin: 6px 6px 6px 12px;
+}
+
+.organics_options_body .organics_options_field_icons .organics_options_menuitem {
+	margin: 0 0 1px 1px;
+}
+
+/* type="socials" */
+.organics_options_body .organics_options_field_socials.organics_options_field_images .organics_options_field_content {
+	padding-left: 40px;
+	padding-right: auto;
+}
+
+.organics_options_body .organics_options_field_socials.organics_options_field_images .organics_options_field_content.organics_options_cloneable_area {
+	padding-left: 0px;
+	padding-right: auto;
+}
+
+.organics_options_body .organics_options_field_socials.organics_options_field_images .organics_options_field_content.organics_options_cloneable_area .organics_options_cloneable_item {
+	padding-left: 40px;
+	padding-right: auto;
+}
+
+.organics_options_body .organics_options_field_socials.organics_options_field_images .organics_options_caption_image {
+	left: 0;
+	right: auto;
+}
+
+/* type="color" */
+.organics_options_body .organics_options_field_color .organics_options_input_color_wp {
+	margin: 0 0 0 4px;
+}
+
+.organics_options_body .organics_options_field_color .iColorPicker {
+	left: 5px;
+	right: auto;
+}
+
+.organics_options_body .organics_options_field_color .iColorPicker_moreColors {
+	margin-right: 2px;
+	margin-left: auto;
+}
+
+/* fields inherit */
+.organics_options_body .organics_options_field_label.organics_options_field_label_inherit {
+	padding-left: 30px;
+	padding-right: auto;
+}
+
+.organics_options_body .organics_options_field_content .organics_options_content_inherit div {
+	right: 50%;
+	left: auto;
+	margin: -10px -30px 0 0;
+}
+
+.organics_options_body .organics_options_field_label .organics_options_button_inherit {
+	left: 0;
+	right: auto;
+}
+
+/* Columns */
+.organics_options_body .organics_options_columns {
+	float: right;
+	margin-right: 2%;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_columns.first {
+	margin-right: 0%;
+	margin-left: auto;
+}
+
+.organics_options_body .organics_options_columns > label {
+	text-align: right;
+}
+
+@media (max-width: 799px) {
+	.organics_options_body .organics_options_columns {
+		margin-right: 0;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 1439px) {
+	.organics_options_body .organics_options_partition > ul > li {
+		float: right;
+		margin-left: 1px;
+		margin-right: auto;
+	}
+
+	.organics_options_body .organics_options_partition > ul > li > a {
+		padding-left: 6px;
+		padding-right: auto;
+	}
+
+	.organics_options_body .organics_options_field > label {
+		text-align: right;
+	}
+
+	.organics_options_body .organics_options_field .organics_options_desc {
+		margin-right: 0;
+		margin-left: auto;
+	}
+}
+
+/* -----core.options-datepicker.css----- */
+.ui-datepicker .ui-datepicker-header.ui-corner-left {
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.ui-datepicker .ui-datepicker-header.ui-corner-right {
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+
+.ui-datepicker .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+	right: 1px;
+	left: auto;
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+	left: 1px;
+	right: auto;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	right: 50%;
+	left: auto;
+	margin-right: -4px;
+	margin-left: auto;
+	text-align: right;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+	text-align: left;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: left;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: right;
+}
+
+/* with multiple calendars */
+.ui-datepicker-multi .ui-datepicker-group {
+	float: right;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: right;
+}
+
+/* -----core.admin.css----- */
+/* Shortcode selector */
+.sc_refresh {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+/* Internal Colorpicker "More Colors" button */
+.iColorPicker_moreColors {
+	margin-right: 2px;
+	margin-left: 0;
+}
+
+/* Reviews block */
+.reviews_block .reviews_item {
+	padding-left: 30px;
+	padding-right: auto;
+}
+
+.reviews_block .reviews_value {
+	left: 0;
+	right: auto;
+	text-align: left;
+}
+
+.reviews_block .reviews_criteria {
+	padding: 4px 0 0 10px;
+}
+
+.reviews_block .reviews_max_level_100 .reviews_criteria {
+	padding-right: 10px;
+	padding-left: auto;
+}
+
+.reviews_block .reviews_stars_wrap {
+	margin-right: 250px;
+	margin-left: 0;
+}
+
+.reviews_block .reviews_max_level_10 .reviews_stars_wrap {
+	margin-right: 200px;
+	margin-left: 0;
+}
+
+.reviews_block .reviews_max_level_100 .reviews_stars_wrap {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.reviews_block .reviews_slider {
+	right: 0;
+	left: auto;
+	-webkit-box-shadow: -1px 0px 1px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: -1px 0px 1px 1px rgba(50, 50, 50, 0.75);
+	box-shadow: -1px 0px 1px 1px rgba(50, 50, 50, 0.75);
+}
+
+.reviews_block .reviews_slider:before {
+	margin: -3px 1px 0 0;
+}
+
+/* Importer */
+.trx_importer_section {
+	float: right;
+}
+
+.trx_exporter_section {
+	float: left;
+	margin: 2em 0 0 2em;
+}
+
+/* -----emailer.css----- */
+.trx_emailer {
+	margin: 0 0 0 20px;
+}
+
+.trx_emailer_block {
+	float: right;
+}
+
+.trx_emailer_block + .trx_emailer_block {
+	float: left;
+}
+
+.trx_emailer_field #emailer_group {
+	margin-left: 10px;
+}
+
+.trx_emailer_field label.inline {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+/* -----po_composter.css----- */
+.po_composer {
+	margin: 0 0 0 20px;
+}
+
+.po_composer_links {
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+.po_composer_download_link {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.po_composer_block {
+	float: right;
+}
+
+.po_composer_block + .po_composer_block {
+	float: left;
+}
+
+.po_composer_label {
+	text-align: right;
+}
+
+.po_composer_editor .left_side {
+	float: right;
+}
+
+.po_composer_editor .right_side {
+	float: left;
+}
+
+.po_composer_editor ul li {
+	margin: 0 1px 0 0;
+}
+
+#po_composer_editor_list #po_list .list_msgid {
+	margin-left: 2%;
+	margin-right: auto;
+}
+
+/* -----qrcode.admin.css----- */
+.widget_qrcode ul.tabs li {
+	float: right;
+	padding-right: 10px;
+	padding-left: 0;
+	margin-right: 10px;
+	margin-left: 0;
+	border-right: #999 1px dotted;
+}
+
+.widget_qrcode ul.tabs li.first {
+	padding-right: 0;
+	padding-left: auto;
+	margin-right: 0;
+	margin-left: auto;
+	border-right: none;
+}
